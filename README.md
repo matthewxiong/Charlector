@@ -1,56 +1,57 @@
-# Welcome to your Expo app 👋
+# Charlector
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Charlector is a React Native mobile app for collecting, tracking, and opening trading card packs.
 
-## Get started
+The goal of the app is to combine card collecting, market tracking, pack opening, and user-to-user trading into one platform.
 
-1. Install dependencies
+## Current Features
 
-   ```bash
-   npm install
-   ```
+- React Native mobile interface
+- Expo Router navigation
+- Pack-opening system
+- Weighted card pull probabilities
+- Animated pack opening
+- Full-screen card reveal
+- Add pulled cards to collection
+- Collection value tracking
+- Market screen prototype
+- Supabase backend setup in progress
 
-2. Start the app
+## Planned Features
 
-   ```bash
-   npx expo start
-   ```
+- Real-time card prices through an external API
+- User authentication
+- Persistent card collections
+- User-to-user card trading
+- Physical card inventory tracking
+- Buyback and selling options
+- Shipping requests
+- Quests and collection progression
+- Marketplace features
 
-In the output, you'll find options to open the app in a
+## Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- React Native
+- Expo
+- TypeScript
+- Supabase
+- PostgreSQL
+- Git
+- GitHub
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Project Status
 
-## Get a fresh project
+Charlector is currently under  development.
 
-When you're ready, run:
+The current version focuses on the core app structure, pack-opening experience, collection management, and backend setup.
 
-```bash
-npm run reset-project
-```
+## Future Architecture
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Users will eventually be able to:
 
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Open a pack with animation
+2. Pull a real card
+3. Add it to their digital collection
+4. Track its market value
+5. Trade it with another user
+6. Sell or request shipment of the physical card
